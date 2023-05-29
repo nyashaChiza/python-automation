@@ -42,8 +42,11 @@ def scrape_table(url, table_class):
         print("No table found on the webpage.")
         return None
 
-url = "https://www.databasestar.com/sample-database-movies/"
 
-data = scrape_table(url,"sqlTable")
+if __name__ == "__name__":
 
-print(data.head())
+    url = "https://www.databasestar.com/sample-database-movies/"
+
+    data = scrape_table(url,"sqlTable")
+
+    print(data.head())
