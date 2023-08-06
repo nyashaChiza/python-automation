@@ -1,1 +1,0 @@
-from Data_Scrapping.data_scraper import scrape_table
