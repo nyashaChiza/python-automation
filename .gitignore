@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+/test-files
+/output-folder
 # Distribution / packaging
 .Python
 build/
@@ -13,6 +14,9 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+/DS_Store
+DS_Store
+/.DS_Store
 .eggs/
 lib/
 lib64/
